@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <time.h>
 #define MAX 5
 
 typedef struct item {
@@ -14,6 +15,13 @@ typedef struct cardapio {
     Item cardapio[MAX]; 
 
 }Cardapio;
+
+typedef struct comanda {
+    int qtd;
+    Item comanda[MAX];
+}Comanda;
+
+
 Cardapio* criaCardapio() {
     Cardapio* cd;
     cd = (Cardapio*) malloc (sizeof(Cardapio));
@@ -26,71 +34,20 @@ Cardapio* criaCardapio() {
 void liberaCardapio(Cardapio* cd) {
     free(cd);
 }
-
-int tamanhoCardapio(Cardapio* cd) {
-    if(cd == NULL) {
-        return -1;
+Comanda* criaComanda() {
+    Comanda* cmd;
+    cmd = (Comanda*) malloc (sizeof(Comanda));
+    if(cmd !=NULL) {
+        cmd->qtd = 0;
     }
-    return cd->qtd;
+    return cmd;
 }
 
-bool cardapioCheio(Cardapio* cd) {
-    if(cd == NULL) {
-        return false;
-    }
-    return (cd->qtd == MAX);
+void liberaComanda(Comanda* cmd) {
+    free(cmd);
 }
 
-bool cardapioVazio(Cardapio* cd) {
-    if(cd == NULL) {
-      return -1;
-    }
-    return (cd->qtd == 0);
-}
-
-bool inserirCardapio(Cardapio* cd, Item it) {
-    if(cd == NULL) {
-        return false;
-    }
-    if(cardapioCheio(cd)) {
-      return false;
-    }
-
-    cd->cardapio[cd->qtd] = it;
-    cd->qtd++;
-    return true;
-}
-
-int buscaID (Cardapio* cd, int search, Item* it) {
-    if(cd == NULL) {
-        printf("nulo\n");
-        return 0;
-        
-    }
-    int i = 0;
-    
-    while(i < cd->qtd && cd->cardapio[i].id != search) 
-        i++;
-    if(i == cd->qtd){ // id não foi encontrado
-        printf("Nao encontrado\n");
-        return 0;
-        
-    }
-    printf( "Id = %d\n", cd->cardapio[i].id );
-    printf( "Nome = %s\n", cd->cardapio[i].nome );
-    printf( "Preco = R$%.2f\n", cd->cardapio[i].preco );
-    *it = cd->cardapio[i];
-    printf("Id = %d\n", it->id);
-    printf("Nome = %s\n", it->nome);
-    printf("Preco = R$%.2f\n", it->preco);
-    return 1;
-}
-
-int main() {
-    
-    Cardapio* cd;
-    cd = criaCardapio();
-
+void carregaCardapio(Cardapio *cd) {
     FILE *f = NULL;
     float total = 0;
     f = fopen("cardapio.txt", "r");
@@ -106,25 +63,60 @@ int main() {
         total += cd->cardapio[i].preco;
 
     }
+    fclose(f);
+}
+int buscaID (Cardapio* cd, int search, Item** it) {
+    if(cd == NULL) {
+        printf("nulo\n");
+        return 0;
+        
+    }
+    int i = 0;
+    
+    while(i < cd->qtd && cd->cardapio[i].id != search) 
+        i++;
+    if(i == cd->qtd){ // id não foi encontrado
+        printf("Nao encontrado\n");
+        return 0;
+        
+    }
+    
+    *it = &cd->cardapio[i];
+    
+    return 1;
+}
+void geradorDeComandas(Comanda *cmd, Cardapio *cd) {
+    srand(time(NULL));
+    for(int i = 0; i < MAX; i++) {
+        for(int j = 0 ; j < MAX; j++) {
 
-     for(int i = 0; i < 5; i++) {
+            int id = rand() % 5 + 1;
+            Item* it;
+            buscaID(cd, id, &it);
+            cmd->comanda[i] = *it;
+        }
+    }
+    
+}
+
+
+
+int main() {
+    
+    Cardapio* cd;
+    cd = criaCardapio();
+
+    carregaCardapio(cd);
+
+    printf("Valores copiados para a struct cardapio:\n");
+    for(int i = 0; i < 5; i++) {
         printf( "Id = %d\n", cd->cardapio[i].id );
         printf( "Nome = %s\n", cd->cardapio[i].nome );
         printf( "Preco = R$%.2f\n", cd->cardapio[i].preco );
         
     }
-    printf("O total eh R$%.2f reais e a qtd = %d\n", total, cd->qtd);
-
-    Item* it;
-    int idsearch = 5;
     
-    int x = buscaID(cd, idsearch, &it);
-    printf("%d\n", x);
-    printf("Voce buscou pelo item de id %d,  e achou:\n", idsearch);
     
-    printf("Id = %d\n", it->id);
-    printf("Nome = %s\n", it->nome);
-    printf("Preco = R$%.2f\n", it->preco);
 
     liberaCardapio(cd);
 }
