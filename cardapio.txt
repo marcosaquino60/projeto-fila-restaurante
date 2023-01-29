@@ -12,6 +12,20 @@ Nome = Pamonha de Frango com Catupiry
 Preco = 14.0
 Id = 05
 Nome = Frango Grelhado
-Preco = 73.0
-
+Preco = 13.0
+Id = 06
+Nome = Coca-Cola
+Preco = 10.0
+Id = 07
+Nome = Rapadura
+Preco = 6.0
+Id = 08
+Nome = Batata-Frita
+Preco = 10.0
+Id = 09
+Nome = Hamburguer
+Preco = 20.0
+Id = 10
+Nome = RedBull
+Preco = 16.0
 
