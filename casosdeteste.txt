@@ -1,0 +1,517 @@
+===============Comanda 1=============
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+O total eh de R$117.00
+
+Voce recebeu: Charge
+===============Comanda 3=============
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+O total eh de R$117.00
+
+Voce recebeu: Ferrero Rocher
+===============Comanda 5=============
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+O total eh de R$89.00
+
+Voce recebeu: Arcor
+===============Comanda 7=============
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+O total eh de R$105.00
+
+Voce recebeu: Kit Kat
+===============Comanda 9=============
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+O total eh de R$116.00
+
+Voce recebeu: Batom
+
+
+
+===============Comanda 1=============
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+O total eh de R$126.00
+
+Voce recebeu: Charge
+===============Comanda 3=============
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+O total eh de R$119.00
+
+Voce recebeu: Ferrero Rocher
+===============Comanda 5=============
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+O total eh de R$133.00
+
+Voce recebeu: Arcor
+===============Comanda 7=============
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+O total eh de R$113.00
+
+Voce recebeu: Kit Kat
+===============Comanda 9=============
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 7
+Nome = Rapadura
+Preco = R$6.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+O total eh de R$118.00
+
+Voce recebeu: Batom
+
+
+
+
+===============Comanda 1=============
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+O total eh de R$135.00
+
+Voce recebeu: Charge
+===============Comanda 3=============
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+O total eh de R$123.00
+
+Voce recebeu: Ferrero Rocher
+===============Comanda 5=============
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+O total eh de R$124.00
+
+Voce recebeu: Arcor
+===============Comanda 7=============
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 6
+Nome = Coca-Cola
+Preco = R$10.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 10
+Nome = RedBull
+Preco = R$16.00
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+O total eh de R$150.00
+
+Voce recebeu: Kit Kat
+===============Comanda 9=============
+Id = 5
+Nome = Frango Grelhado
+Preco = R$13.00
+Id = 9
+Nome = Hamburguer
+Preco = R$20.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 3
+Nome = Brownie de Chocolate
+Preco = R$12.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 1
+Nome = Espetinho de Frango
+Preco = R$10.00
+Id = 4
+Nome = Pamonha de Frango com Catupiry
+Preco = R$14.00
+Id = 8
+Nome = Batata-Frita
+Preco = R$10.00
+Id = 2
+Nome = Pamonha Doce
+Preco = R$11.00
+O total eh de R$120.00
+
+Voce recebeu: Batom
