@@ -1,0 +1,10 @@
+Nome = Cacau Show
+Nome = Sonho de Valsa
+Nome = Snickers
+Nome = Ouro Branco
+Nome = Bis
+Nome = Batom
+Nome = Kit Kat
+Nome = Arcor
+Nome = Ferrero Rocher
+Nome = Charge
